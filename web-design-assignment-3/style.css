@@ -1,4 +1,1070 @@
 body{
-    font-size: 10px;
+    
+    margin: 0px;
+    padding-top: 24px;
+    padding-left: 155px;
+    padding-right: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: #EEFCFD;
+    
+
+    
+    
 }
 
+a{
+   
+    text-decoration: none;
+    color: #7F7F7F;
+    text-shadow: 1.5px 1.5px 3.5px rgba(0, 0, 0, 0.25);
+
+
+}
+
+
+/*styling for header and footer container */
+#headerContainer{
+
+   
+    width: 1075px;
+    height: 61px;
+    padding: 0;
+    margin: 5px;
+
+border-radius: 30px;
+background: #EEFCFD;
+box-shadow: 
+    -3.5px -3.5px 7px 0px #FFF, /* Outer shadow 1 */
+    1.5px 1.5px 1.5px 0px #FFF inset, /* Inner shadow */
+    5px 5px 10px 0px rgba(0, 0, 0, 0.25); /* Outer shadow 2 */
+}
+
+#footerContainer{
+
+    width: 1075px;
+    height: 61px;
+    padding: 0;
+    margin: 5px;
+
+border-radius: 30px;
+background: #EEFCFD;
+box-shadow: 
+    -3.5px -3.5px 7px 0px #FFF, /* Outer shadow 1 */
+    1.5px 1.5px 1.5px 0px #FFF inset, /* Inner shadow */
+    5px 5px 10px 0px rgba(0, 0, 0, 0.25); /* Outer shadow 2 */
+}
+
+/* top navigation bar (header) styling */
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h1{
+
+    font-size: 40px;
+
+}
+
+h2{
+
+    text-transform: uppercase;
+    font-family: lato, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7F7F7F;
+    text-shadow: 1.5px 1.5px 3.5px rgba(0, 0, 0, 0.25);
+}
+
+#logo{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    margin-left: 45px;
+    text-transform: uppercase;
+    text-shadow: 
+    1px 1px 0 rgba(0, 0, 0, 0.75),  /* Stronger bottom-right shadow */
+    -1px -1px 0 rgba(255, 255, 255, 0.9); /* Brighter top-left highlight */
+
+    color: #EEFCFD;
+
+}
+
+#headerNav{
+    
+    font-family: lato, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+
+/* container to align aside and main content*/
+#mainContent{
+
+   display: flex;
+   height: 1785px;
+   width: 1125px;
+   justify-content: center;
+   gap: 5px;
+
+}
+
+/*aside bar conainter */
+
+#sideNav{
+    
+    height: 1785px;
+    width: 70px;
+    padding: 0;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    
+    
+
+
+}
+
+/* allows side bar to be fixed on scroll */
+
+#staticNav{
+    
+    
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: sticky;
+    top: 25vh;
+}
+
+/*side bar button/link styling*/
+
+.sideNavContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    width: 65px;
+    height: 65px;
+    font-family: lato, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    border-radius: 50%;
+    flex-wrap: nowrap;
+    border-radius: 30px;
+    background: #EEFCFD;
+    box-shadow: 
+    -3.5px -3.5px 7px 0px #FFF, /* Outer shadow 1 */
+    1.5px 1.5px 1.5px 0px #FFF inset, /* Inner shadow */
+    5px 5px 10px 0px rgba(0, 0, 0, 0.25); /* Outer shadow 2 */
+
+
+
+}
+    
+
+
+
+
+/* actual main content container */
+
+
+main{
+
+
+    width: 920px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Section header container style */
+
+.sectionHeaderContainer{
+  
+    
+    width: 245px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+
+    border-radius: 30px;
+    box-shadow: 
+    7.5px 7.5px 46.5px 0px rgba(241, 241, 241, 0.45) inset, /* Inner shadow */
+    7.5px 7.5px 15.5px 0px rgba(0, 0, 0, 0.25), /* Outer shadow 1 */
+    -7.5px -7.5px 7.5px 0px #FFF; /* Outer shadow 2 */
+
+}
+
+/* about me main container */
+
+#aboutMe{
+
+    
+    height: 490px;
+    
+    display: flex;
+
+    border-radius: 30px;
+    background: #EEFCFD;
+    box-shadow: 
+    -3.5px -3.5px 7px 0px #FFF, /* Outer shadow 1 */
+    1.5px 1.5px 1.5px 0px #FFF inset, /* Inner shadow */
+    5px 5px 10px 0px rgba(0, 0, 0, 0.25); /* Outer shadow 2 */
+
+}
+
+/*About me inner conatiner left and inner container right */
+/* these are to align the content within the about me section */
+
+#aboutMeLeftContainer{
+
+    
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding-top: 15px;
+
+}
+
+#aboutMeRightContainer{
+
+    
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding-top: 15px;
+}
+
+/*content in about me left container */
+/* circle containers */
+
+#outerCircle{
+width: 365px;
+height: 365px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+
+box-shadow: 
+    6.5px 6.5px 13px 0px rgba(0, 0, 0, 0.06), /* Outer shadow */
+    -7.5px -7.5px 7.5px 0px #FFF inset, /* Inner light shadow */
+    7.5px 7.5px 31px 0px rgba(0, 0, 0, 0.23) inset; /* Inner dark shadow */
+}
+
+#middleCircle{
+width: 250px;
+height: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+
+box-shadow: 
+    7.5px 7.5px 46.5px 0px rgba(241, 241, 241, 0.45) inset, /* Inner shadow */
+    7.5px 7.5px 15.5px 0px rgba(0, 0, 0, 0.25), /* Outer shadow 1 */
+    -7.5px -7.5px 7.5px 0px #FFF; /* Outer shadow 2 */
+}
+
+#innerCircle{
+    width: 190px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    box-shadow: 
+    7.5px 7.5px 46.5px 0px rgba(241, 241, 241, 0.45) inset, /* Inner shadow */
+    -7.5px -7.5px 7.5px 0px #FFF, /* Outer light shadow */
+    7.5px 7.5px 15.5px 0px rgba(0, 0, 0, 0.25); /* Outer dark shadow */
+}
+
+#portrait{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+
+}
+/* content in about me right container */
+
+#aboutMeTextContainer{
+    width: 320px;
+    height: 440px;
+    border-radius: 10px;
+    display: flex;
+    
+    box-shadow: 
+        -7.5px -7.5px 7.5px 0px #FFF inset, /* Inner light shadow */
+        7.5px 7.5px 31px 0px rgba(0, 0, 0, 0.23) inset, /* Inner dark shadow */
+        6.5px 6.5px 13px 0px rgba(0, 0, 0, 0.06); /* Outer shadow */
+    
+}
+
+#aboutMeText{
+
+    margin: 36px;
+    font-size: 14.5px;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+
+}
+
+/*toolbox main container */
+
+#toolBox{
+    height: 640px;
+    
+
+    border-radius: 30px;
+    background: #EEFCFD;
+    box-shadow: 
+    -3.5px -3.5px 7px 0px #FFF, /* Outer shadow 1 */
+    1.5px 1.5px 1.5px 0px #FFF inset, /* Inner shadow */
+    5px 5px 10px 0px rgba(0, 0, 0, 0.25); /* Outer shadow 2 */
+}
+
+/* toolbox content alignment containers */
+
+#toolBoxTopContainer{
+
+    height: 150px;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#toolBoxBottomContainer{
+
+    height: 485px;
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+/* tool box top container items (header) */
+
+#toolBoxHeaderContainer{
+
+    margin-left: 55px;
+    margin-top: 10px;
+
+}
+
+/*tool box bottom container items */
+
+#toolContainer{
+width: 885px;
+height: 355px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 20px;
+
+box-shadow: 
+    -8.5px -8.5px 8.5px 0px #FFF inset, /* Inner light shadow */
+    8.5px 8.5px 33.5px 0px rgba(0, 0, 0, 0.23) inset, /* Inner dark shadow */
+    7px 7px 14px 0px rgba(0, 0, 0, 0.06); /* Outer shadow */
+
+}
+
+#toolBoxInnerContainer{
+    
+    width: 800px;
+    height: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 54px 45px;
+    flex-wrap: wrap;
+
+
+}
+
+/* tool box icon containers */
+
+.toolBox{
+
+    width: 110px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+    box-shadow: 
+    8.5px 8.5px 50.5px 0px rgba(241, 241, 241, 0.45) inset, /* Inner shadow */
+    8.5px 8.5px 16.5px 0px rgba(0, 0, 0, 0.25), /* Outer shadow 1 */
+    -8.5px -8.5px 8.5px 0px #FFF; /* Outer shadow 2 */
+
+}
+
+.toolboxThumb{
+
+    height: 80px;
+    width: 80px;
+    
+
+}
+
+/*gallery main container */
+
+#gallery{
+
+    height: 640px;
+    
+    display: flex;
+
+    border-radius: 30px;
+    background: #EEFCFD;
+    box-shadow: 
+    -3.5px -3.5px 7px 0px #FFF, /* Outer shadow 1 */
+    1.5px 1.5px 1.5px 0px #FFF inset, /* Inner shadow */
+    5px 5px 10px 0px rgba(0, 0, 0, 0.25); /* Outer shadow 2 */
+}
+
+/* gallery alignment containers */
+
+#galleryLeftContainer{
+
+    width: 380px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#galleryRightContainer{
+
+    width: 540px;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+/* gallery left container items */
+
+#galleryHeaderContainer{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 380px;
+    
+
+}
+
+#galleryThumbnailContainer{
+    
+    height: 420px;
+    width: 265px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px 25px;
+   
+
+}
+
+.galleryThumbnail{
+
+    margin: 0px;
+    padding: 0px;
+    height: 125px;
+    width: 125px;
+    border-radius: 20px;
+
+    box-shadow: 
+    9.5px 9.5px 59px 0px rgba(241, 241, 241, 0.45) inset, /* Inner shadow */
+    9.5px 9.5px 19.5px 0px rgba(0, 0, 0, 0.25), /* Outer shadow 1 */
+    -9.5px -9.5px 9.5px 0px #FFF; /* Outer shadow 2 */
+
+
+}
+
+.gallerythumb{
+
+        margin: 0px;
+        padding: 0px;
+        height: 125px;
+        width: 125px;
+        border-radius: 20px;
+    
+}
+
+/* gallery right container items */
+
+
+#defaultDisplay{
+
+    height: 510px;
+    width: 510px;
+    border-radius: 20px;
+
+    box-shadow: 
+    9.5px 9.5px 59px 0px rgba(241, 241, 241, 0.45) inset, /* Inner shadow */
+    9.5px 9.5px 19.5px 0px rgba(0, 0, 0, 0.25), /* Outer shadow 1 */
+    -9.5px -9.5px 9.5px 0px #FFF; /* Outer shadow 2 */
+}
+
+/* footer items */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#copyright{
+    margin-left: 48px;
+    color: #7F7F7F;
+    text-shadow: 1.5px 1.5px 3.5px rgba(0, 0, 0, 0.25);
+    font-family: Raleway,Arial, Helvetica, sans-serif;
+}
+
+#footerNavList{
+
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    gap: 75px;
+    margin-right: 57px;
+    font-family: Raleway,Arial, Helvetica, sans-serif;
+
+
+}
+
+#galleryHeaderTablet{
+
+    display: none;
+
+}
+
+/*media Queries */
+
+
+@media screen and (max-width:768px) {
+
+    body{
+        overflow-x:hidden;
+    }
+
+    main{
+        width: 640px;
+    }
+
+   #headerContainer{
+    width: 720px;
+    margin: 0;
+   }
+
+   #footerContainer{
+    width: 720px;
+    margin: 0;
+   }
+
+    #headerNav{
+    
+        font-family: lato, Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        display: flex;
+        gap: 25px;
+        list-style: none;
+        font-size: 16px;
+        margin-right: 50px;
+    }
+
+
+
+    #sideNav{
+
+        height: 1600px;
+    }
+
+    #mainContent{
+
+        height: 1600px;
+    }
+    
+    #staticNav{
+        display: flex;
+        justify-content: center;
+        top: 30vh;
+        bottom: 40vh;
+        height: 400px;
+    }
+    
+    #outerCircle{
+
+        width: 300px;
+        height: 300px;
+    }
+
+    #aboutMeTextContainer{
+
+        width: 300px;
+        height: 410px;
+        border-radius: 25px;
+    }
+
+    #aboutMeText{
+
+        margin: 26px;
+        font-size: 14px;
+        font-family: Raleway, Arial, Helvetica, sans-serif;
+    
+    }
+
+    #toolBoxInnerContainer{
+    
+        width: 500px;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 54px 45px;
+        flex-wrap: wrap;
+        
+    
+    }
+
+    #toolContainer{
+        width: 600px;
+        height: 355px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        overflow: auto; 
+        
+        box-shadow: 
+            -8.5px -8.5px 8.5px 0px #FFF inset, /* Inner light shadow */
+            8.5px 8.5px 33.5px 0px rgba(0, 0, 0, 0.23) inset, /* Inner dark shadow */
+            7px 7px 14px 0px rgba(0, 0, 0, 0.06); /* Outer shadow */
+        
+        }
+
+        #toolContainer::-webkit-scrollbar {
+            display: none; 
+        }
+
+        /*gallery media queries */
+
+        #gallery{
+
+            height: 487px;
+            
+            display: flex;
+            flex-direction: row-reverse;
+        
+            border-radius: 30px;
+            background: #EEFCFD;
+            box-shadow: 
+            -3.5px -3.5px 7px 0px #FFF, /* Outer shadow 1 */
+            1.5px 1.5px 1.5px 0px #FFF inset, /* Inner shadow */
+            5px 5px 10px 0px rgba(0, 0, 0, 0.25); /* Outer shadow 2 */
+        }
+        
+        /* gallery alignment containers */
+        
+        #galleryLeftContainer{
+        
+            width: 380px;
+            height: 487px;
+            display: flex;
+            flex-direction: column;
+            
+            align-items: center;
+            justify-content: center;
+        
+        
+        }
+        
+        #galleryRightContainer{
+        
+            width: 540px;
+            height: 487px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 20px;
+            
+        
+        }
+        
+        /* gallery left container items */
+        
+        #galleryHeaderContainer{
+            display: flex;
+            justify-content: center;
+            height: 100px;
+            width: 380px;
+            display: none;
+            
+        
+        }
+        
+        #galleryThumbnailContainer{
+            
+            height: 440px;
+            width: 265px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 20px 25px;
+            overflow: auto; 
+           
+        
+        }
+
+        
+        #galleryThumbnailContainer::-webkit-scrollbar {
+            display: none; 
+        }
+        
+        .galleryThumbnail{
+        
+            margin: 0px;
+            padding: 0px;
+            height: 90px;
+            width: 90px;
+            border-radius: 20px;
+        
+            box-shadow: 
+            9.5px 9.5px 59px 0px rgba(241, 241, 241, 0.45) inset, /* Inner shadow */
+            9.5px 9.5px 19.5px 0px rgba(0, 0, 0, 0.25), /* Outer shadow 1 */
+            -9.5px -9.5px 9.5px 0px #FFF; /* Outer shadow 2 */
+        
+        
+        }
+        
+        .gallerythumb{
+        
+                margin: 0px;
+                padding: 0px;
+                height: 90px;
+                width: 90px;
+                border-radius: 20px;
+            
+        }
+        
+        /* gallery right container items */
+        
+        
+        #defaultDisplay{
+        
+            height: 360px;
+            width: 360px;
+            border-radius: 20px;
+            margin-left: 20px;
+        
+            box-shadow: 
+            9.5px 9.5px 59px 0px rgba(241, 241, 241, 0.45) inset, /* Inner shadow */
+            9.5px 9.5px 19.5px 0px rgba(0, 0, 0, 0.25), /* Outer shadow 1 */
+            -9.5px -9.5px 9.5px 0px #FFF; /* Outer shadow 2 */
+        }
+
+        #galleryHeader{
+
+            display: none;
+        }
+
+        #galleryHeaderTablet{
+
+        width: 245px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        padding: 0px;
+
+        border-radius: 30px;
+        box-shadow: 
+        7.5px 7.5px 46.5px 0px rgba(241, 241, 241, 0.45) inset, /* Inner shadow */
+        7.5px 7.5px 15.5px 0px rgba(0, 0, 0, 0.25), /* Outer shadow 1 */
+        -7.5px -7.5px 7.5px 0px #FFF; /* Outer shadow 2 */
+
+         }
+
+        
+}
+
+#mobileDropdown{
+
+    display: none;
+}
+
+@media screen and (max-width:320px){
+
+    body{
+        width: 320px;
+        padding: 0;
+        align-items: center;
+    }
+
+    aside{
+        display: none;
+    }
+
+    #headerNav{
+
+        display: none;
+    }
+
+    #headerNav li{
+
+        display: none;
+    }
+
+    main{
+        width: 300px;
+      
+    }
+
+    #headerContainer{
+
+        width: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+
+    #footerContainer{
+        width: 318px;
+        margin: 0;
+        
+    }
+
+    #mobileHeader{
+        width: 200px !important;
+
+
+    }
+
+    #logo{
+
+        margin: 0;
+        height: 50px;
+    }
+
+    h1{
+        height: 50px;
+        margin: 5px;
+    }
+
+    #mainContent{
+
+        height: 3625px;
+    }
+
+    #aboutMe{
+        height: 825px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #toolBox{
+
+        height: 1000px;
+    }
+
+    #toolBoxTopContainer{
+
+        display: flex;
+        justify-content: center;
+    }
+
+    #toolBoxHeaderContainer{
+
+        margin: 0;
+    }
+
+    #toolBoxBottomContainer{
+
+        height: 800px;
+
+    }
+
+    #toolContainer{
+        height: 800px;
+        width: 290px;
+        overflow: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    #toolBoxInnerContainer{
+        margin-top: 40px;
+        height: 600px;
+        width: 300px;
+        overflow: none;
+    }
+
+    .toolBox{
+        height: 90px;
+        width: 100px;
+    }
+
+
+
+    #gallery{
+
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 600px;
+        width: 300px;
+    }
+
+    #galleryRightContainer{
+
+        height: 350px;
+    }
+
+    #galleryLeftContainer{
+
+        height: 150px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #defaultDisplay{
+
+        height: 260px;
+        width: 260px;
+        margin: 0;
+    }
+
+    #galleryThumbnailContainer{
+            
+        height: 150px;
+        width: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px 25px;
+        overflow: none; 
+       
+    
+    }
+
+    #galleryThumbnailContainer::-webkit-scrollbar {
+        display: none; 
+    }
+
+    .galleryThumbnail{
+
+        height: 40px;
+        width: 40px;
+        border-radius: 5px;
+    }
+
+    .gallerythumb{ 
+
+        height: 40px;
+        width: 40px;
+        border-radius: 5px;
+    }
+
+
+    #footerNavList{
+
+        flex-direction: column;
+    }
+
+    /*mobile menu*/
+
+    #mobileHeaderContainer{
+        margin-top: 15px;
+        width: 305px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #mobileDropdown{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #mobileMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    width: 65px;
+    height: 65px;
+    font-family: lato, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    border-radius: 50%;
+    flex-wrap: nowrap;
+    border-radius: 30px;
+    background: #EEFCFD;
+    box-shadow: 
+    -3.5px -3.5px 7px 0px #FFF, /* Outer shadow 1 */
+    1.5px 1.5px 1.5px 0px #FFF inset, /* Inner shadow */
+    5px 5px 10px 0px rgba(0, 0, 0, 0.25); /* Outer shadow 2 */
+    }
+
+    .mobileNavContainer{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        width: 65px;
+        height: 65px;
+        font-family: lato, Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        border-radius: 50%;
+        flex-wrap: nowrap;
+        border-radius: 30px;
+        background: #EEFCFD;
+        box-shadow: 
+        -3.5px -3.5px 7px 0px #FFF, /* Outer shadow 1 */
+        1.5px 1.5px 1.5px 0px #FFF inset, /* Inner shadow */
+        5px 5px 10px 0px rgba(0, 0, 0, 0.25); /* Outer shadow 2 */
+
+    }
+
+
+
+
+}
